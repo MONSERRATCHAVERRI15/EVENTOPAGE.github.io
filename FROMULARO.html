@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELL AND HEAVEN</title>
+    <link rel="stylesheet" href="FORMULARIO.css">
+</head>
+<body>
+    <header>
+        <img src="IMAGENES/logo.png" alt="Logo de la página">
+    </header>
+    <div class="container">
+        <form id="registration-form" action="#" method="POST">
+            <h2>REGISTRO DEL HELL AND HEAVEN</h2>
+            <div class="form-container">
+                <div class="details">
+                    <h3>Detalles del Evento</h3>
+                    <p>Fecha: 10 de mayo, 2024</p>
+                    <p>Lugar: Estadio Metálico</p>
+                    <p>Descripción: Un evento épico lleno de energía y música vibrante</p>
+                </div>
+                <div class="form">
+                    <label for="full-name">Nombre Completo:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Número de Teléfono:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="ticket-type">Tipo de Entrada:</label>
+                    <select id="ticket-type" name="ticket-type" required>
+                        <option value="General">General</option>
+                        <option value="VIP">VIP</option>
+                        <option value="Platinum">Platinum</option>
+                    </select>
+                    
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="FORMULARIO.js"></script>
+</body>
+</html>
